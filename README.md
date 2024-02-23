@@ -1,1 +1,6 @@
 # Mastermind
+
+**DEROULEMENT DE LA PARTIE**
+
+
+**INSTALLATION DU JEU**
