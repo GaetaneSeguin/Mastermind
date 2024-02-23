@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mastermind</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  
+</head>
+<body>
+  <h1>Jeu Mastermind</h1>
+  <h2>Deviner la combinaison </h2>
+  <div class="content">
+    <div class="J2">
+      <div class="boardGame"></div>
+      
+      <!-- <span class="dot" id="firstTry" type="button"></span>
+      <span class="dot" id="secondTry"></span>
+      <span class="dot" id="thirdTry"></span>
+      <span class="dot" id="fourthTry"></span>
+      <button id="validTry" type="button" onclick="compareArray()">Valider</button> -->
+    </div>
+
+    <div class="secondSide">
+      <div id="paletColor">
+        <h2>Sélectionner une couleur</h2>
+        <div class="square" id="blueSquare" type="button" ></div>
+        <div class="square" id="greenSquare" type="button" ></div>
+        <div class="square" id="yellowSquare" type="button" ></div>
+        <div class="square" id="redSquare" type="button" ></div>
+      </div>
+      <button class="button" id="validTry" type="button" onclick="compareArray()">Valider</button>
+      
+      </div>
+      <div class="popUp">
+        <div id="textEnd">test </div>
+        <button class="button" id="reStart"  onclick="init()">Rejouer</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<script src="mastermind.js"> </script>
+</html>
