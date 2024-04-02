@@ -9,4 +9,5 @@ un code couleur va apparaitre. Si vous avez du vert alors vous avez la couleur e
 
 **JOUER AU JEU**
 
-C'est par ici
+C'est par [ici] (https://gaetaneseguin.github.io/Mastermind/)
+
